@@ -1,0 +1,21 @@
+.square{
+    background: #fff;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+   
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    /* height: 34px; */
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    /* text-align: center; */
+    /* width: 34px; */
+}
+
+.border-row{
+    display: table;
+}

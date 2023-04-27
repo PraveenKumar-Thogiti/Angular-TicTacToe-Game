@@ -1,0 +1,21 @@
+<div>
+  <span *ngIf="isXNext">Next move: "X"</span>
+  <span *ngIf="!isXNext">Next move: "0"</span>
+</div>
+<div>
+    <div class="border-row"> 
+        <button class="square" (click)="setValue(0)">{{squareList[0]}}</button>
+        <button class="square" (click)="setValue(1)">{{squareList[1]}}</button>
+        <button class="square"(click)="setValue(2)">{{squareList[2]}}</button>
+    </div>
+    <div class="border-row"> 
+      <button class="square" (click)="setValue(3)">{{squareList[3]}}</button>
+      <button class="square" (click)="setValue(4)">{{squareList[4]}}</button>
+      <button class="square" (click)="setValue(5)">{{squareList[5]}}</button>
+  </div>
+  <div class="border-row"> 
+    <button class="square" (click)="setValue(6)">{{squareList[6]}}</button>
+    <button class="square" (click)="setValue(7)">{{squareList[7]}}</button>
+    <button class="square" (click)="setValue(8)">{{squareList[8]}}</button>
+</div>
+</div>
